@@ -240,3 +240,12 @@ button {
 .message-success.visible {
     display: block;
 }
+
+body.white-mode {
+    background-color: #000000;
+}
+
+body.dark-mode {
+    background-color: #ffffff;
+    color: #000000;
+}

@@ -90,3 +90,18 @@ form.addEventListener('submit', function (event) {
     }
 })
 
+/*Dark Mode*/
+function toggleMode() {
+    const body = document.querySelector('body');
+    body.classList.toggle('dark-mode');
+    if (body.classList.contains('dark-mode')) {
+        localStorage.setItem('mode', 'dark');
+    } else {
+        localStorage.setItem('mode', 'white');
+    }
+}
+
+const saveMode = localStorage.getItem('mode');
+if (saveMode === 'dark') {
+    document.querySelector('body').classList.add('dark-mode');
+}
