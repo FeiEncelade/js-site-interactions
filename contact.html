@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeiContact</title>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+
+    <header id="girl">
+        <img src="image/girl.png" alt="headerGirl">
+    </header>
+
+    <nav>
+        <ul class="shell">
+            <li class="titre">
+                <a href="projets.html" id="navP">PROJETS</a>
+                <ul>
+                    <li>
+                        <a href="projetsDessin.html" id="navSon">DESSIN</a>
+                    </li>
+                    <li>
+                        <a href="projetsPhoto.html" id="navSon">PHOTO</a>
+                    </li>
+                    <li>
+                        <a href="projetsStage.html" id="navSon">STAGE</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="titre">
+                <a href="aPropos.html" id="navP">À PROPOS</a>
+            </li>
+            <li class="titre">
+                <a href="contact.html" id="navP">CONTACT</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="text">
+        <p>CONTACT</p>
+        <ul><br></ul>
+        <h1>N'hésitez pas à me contacter via ce formulaire !
+            <ul></ul>
+            Ou envoyez-moi un e-mail directement à
+        </h1>
+        <ul><br></ul>
+        <h2>
+            【feijian_etudes@outlook.fr】
+        </h2>
+
+    </div>
+
+    <div class="message-error">
+        <ul></ul>
+    </div>
+    <div class="message-success">
+        <ul>Formulaire envoyé !</ul>
+    </div>
+    <form action="" method="POST" enctype="multipart/form-data">
+        <div>
+            <label for="pseudo">Pseudo</label>
+            <input type="text" name="pseudo" id="pseudo" placeholder="Your name">
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Your email">
+        </div>
+
+        <div>
+            <label for="password">Mote de passe</label>
+            <input type="password" name="password" id="password" placeholder="Your password">
+        </div>
+        <div>
+            <label for="password2">Entrer à nouveau le mot de passe</label>
+            <input type="password" name="password2" id="password2" placeholder="Repeat your password">
+        </div>
+
+        <button type="submit">S'inscrire</button>
+
+    </form>
+
+    <footer>
+        <a id="retour" href="index.html">
+            <button>À L'ACCUEIL</button>
+        </a>
+    </footer>
+
+    <script src="contact.js"></script>
+</body>
+
+</html>
